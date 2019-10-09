@@ -1,0 +1,41 @@
+<div class="modal" ng-show="isModalShow">
+    <div class="times">
+        <p>{{header}}</p>
+        <span class="fa fa-times" ng-click="isModalShow=false"></span>
+    </div>
+    <div class="content" ng-transclude></div>
+</div>
+
+<style>
+    .modal {
+        width: 600px;
+        background-color: white;
+        border: 2px solid darkgrey;
+        position: fixed;
+        box-shadow: 5px 6px 12px 2px grey;
+        padding: 0 10px 10px 10px;
+        z-index: 1000;
+        top: 30%;
+        left: 30%;
+        max-height: 500px;
+        overflow: hidden;
+    }
+
+    .trash {
+        position: relative;
+    }
+
+    .times span {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .fa-times:hover {
+        cursor: pointer;
+    }
+
+    .content {
+        width: 100%;
+    }
+</style>
