@@ -1,0 +1,19 @@
+{
+  "name": "modalangularas",
+  "version": "1.0.1",
+  "description": "",
+  "main": "modal.component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwinterwin/angularModal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwinterwin/angularModal/issues"
+  },
+  "homepage": "https://github.com/kwinterwin/angularModal#readme"
+}
