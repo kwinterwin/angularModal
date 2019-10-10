@@ -1,6 +1,6 @@
 angular
     .module("modal")
-    .directive("modal", ["$rootScope", function () {
+    .directive("modal", ["$rootScope", function ($rootScope) {
         return {
             restrict: 'E',
             transclude: true,
